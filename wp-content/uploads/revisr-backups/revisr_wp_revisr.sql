@@ -19,12 +19,12 @@ CREATE TABLE `wp_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2016-02-08 16:44:11','Successfully created a new repository.','init','chris'),(2,'2016-02-08 16:47:05','Committed <a href=\"http://www.development.dev/wp-admin/admin.php?page=revisr_view_commit&commit=e43b258&success=true\">#e43b258</a> to the local repository.','commit','chris'),(3,'2016-02-08 16:47:06','Error pushing changes to the remote repository.','error','chris'),(4,'2016-02-08 16:48:27','Error pushing changes to the remote repository.','error','chris'),(5,'2016-02-08 16:52:15','Successfully pushed 1 commit to origin/master.','push','chris');
+INSERT INTO `wp_revisr` VALUES (1,'2016-02-08 16:44:11','Successfully created a new repository.','init','chris'),(2,'2016-02-08 16:47:05','Committed <a href=\"http://www.development.dev/wp-admin/admin.php?page=revisr_view_commit&commit=e43b258&success=true\">#e43b258</a> to the local repository.','commit','chris'),(3,'2016-02-08 16:47:06','Error pushing changes to the remote repository.','error','chris'),(4,'2016-02-08 16:48:27','Error pushing changes to the remote repository.','error','chris'),(5,'2016-02-08 16:52:15','Successfully pushed 1 commit to origin/master.','push','chris'),(6,'2016-02-08 16:53:58','Successfully backed up the database.','backup','chris'),(7,'2016-02-08 16:54:00','Successfully pushed 1 commit to origin/master.','push','chris');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
